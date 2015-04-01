@@ -1,0 +1,164 @@
+.new-tab {
+    background-image:url(../images/new_tab.gif) !important;
+}
+
+.tabs {
+    background-image:url(../images/tabs.gif ) !important;
+}
+
+.list {
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+.list li{
+    list-style: square;
+    padding: 2px;
+} 
+
+.regularStyle .x-grid-cell { 
+    background-color: #B2E6FF; 
+    color: #000000; 
+} 
+.purchasedStyle .x-grid-cell { 
+    background-color: #C2EBFF; 
+    color: #000000; 
+} 
+.sellThroughStyle .x-grid-cell { 
+    background-color: #D1F0FF; 
+    color: #000000; 
+} 
+.forecastSellThroughStyle .x-grid-cell { 
+    background-color: #E0F5FF; 
+    color: #000000; 
+} 
+.onHandsStyle .x-grid-cell { 
+    background-color: #F0FAFF; 
+    color: #000000; 
+}
+
+
+.regularStyle_alt .x-grid-cell { 
+    background-color: #ABABFF; 
+    color: #000000; 
+} 
+.purchasedStyle_alt .x-grid-cell { 
+    background-color: #ADADFF; 
+    color: #000000; 
+} 
+.sellThroughStyle_alt .x-grid-cell { 
+    background-color: #C2C2FF; 
+    color: #000000; 
+} 
+.forecastSellThroughStyle_alt .x-grid-cell { 
+    background-color: #D6D6FF; 
+    color: #000000; 
+} 
+.onHandsStyle_alt .x-grid-cell { 
+    background-color: #EBEBFF; 
+    color: #000000; 
+}
+
+
+.icon-chart {
+    background-image: url(../images/chart_bar.png) !important;
+}
+
+.icon-user {
+    background-image: url(../images/user.png) !important;
+}
+
+.icon-user-add {
+    background-image: url(../images/user_add.gif) !important;
+}
+
+.icon-save {
+    background-image: url(../images/save.png) !important;
+}
+
+.icon-reset {
+    background-image: url(../images/reset.png) !important;
+}
+
+.icon-grid {
+    background-image: url(../images/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(../images/add.png) !important;
+}
+
+.icon-create {
+    background-image: url(../images/add.png) !important;
+}
+
+.icon-delete {
+    background-image: url(../images/delete.png) !important;
+}
+.icon-approve {
+    background-image: url(../images/approve.png) !important;
+}
+.icon-cancel {
+    background-image: url(../images/cancel.png) !important;
+}
+.icon-close {
+    background-image: url(../images/close.png) !important;
+}
+.icon-copy {
+    background-image: url(../images/copy.png) !important;
+}
+.icon-return {
+    background-image: url(../images/return.png) !important;
+}
+.icon-modify {
+    background-image: url(../images/modify.png) !important;
+}
+.icon-search {
+    background-image: url(../images/search.png) !important;
+}
+.icon-new {
+    background-image: url(../images/new.png) !important;
+}
+.icon-next {
+    background-image: url(../images/next.png) !important;
+}
+
+.icon-prev {
+    background-image: url(../images/arrow_left.png) !important;
+}
+
+.icon-submit {
+    background-image: url(../images/submit.png) !important;
+}
+
+.icon-product {
+    background-image: url(../images/printer.png) !important;
+}
+
+.icon-check1 {
+    background-image: url(../images/check_1.png) !important;
+}
+
+.icon-check {
+    background-image: url(../images/check_2.png) !important;
+}
+.icon-report {
+    background-image: url(../images/excel_icon.png) !important;
+}
+.icon-search {
+    background-image: url(../images/search.png) !important;
+}
+
+
+.fast-label{
+  zoom: 1;
+  display: block;
+  outline: none;
+  font-family: Helvetica,Arial,Verdana,sans-serif; 
+  font-weight: bold; 
+  font-size: 12px; 
+  color: #2F577F;
+  
+  
+}
+ 

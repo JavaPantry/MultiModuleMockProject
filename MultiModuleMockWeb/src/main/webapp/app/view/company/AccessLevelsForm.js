@@ -1,0 +1,71 @@
+
+Ext.define('Fast.view.company.AccessLevelsForm', {
+    extend: 'Ext.window.Window',
+    alias : 'widget.AccessLevelsForm',
+
+    requires: ['Ext.form.Panel','Ext.form.field.Text'],
+
+    title : 'Edit AccessLevel',
+    layout: 'fit',
+    autoShow: true,
+    modal: true,
+    width: 280,
+    
+    iconCls: 'icon-user',
+
+    initComponent: function() {
+        this.items = [
+            {
+                xtype: 'form',
+                padding: '5 5 0 5',
+                border: false,            
+                fieldDefaults: {
+                    anchor: '100%',
+                    labelAlign: 'left',
+                    allowBlank: false,
+                    combineErrors: true,
+                    msgTarget: 'side'
+                },
+                //fields: ['id', 'groupName', 'groupDesc']
+                items: [
+					{
+					    xtype: 'textfield',
+					    name : 'id',
+					    fieldLabel: 'id',
+					    hidden:true
+					},    
+                    {
+                        xtype: 'textfield',
+                        name : 'groupName',
+                        fieldLabel: 'Access Level'
+                    },
+                    {
+                        xtype: 'textfield',
+                        name : 'groupDesc',
+                        fieldLabel: 'Access Level Description'
+                    }
+                ]
+            }
+        ];
+        
+        this.dockedItems = [{
+            xtype: 'toolbar',
+            dock: 'bottom',
+            id:'buttons',
+            ui: 'footer',
+            items: ['->', {
+                iconCls: 'icon-save',
+                itemId: 'save',
+                text: 'Save',
+                action: 'companyAccessLevelUpdate'
+            },{
+                iconCls: 'icon-cancel',
+                text: 'Cancel',
+                scope: this,
+                handler: this.close
+            }]
+        }];
+
+        this.callParent(arguments);
+    }
+});

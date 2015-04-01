@@ -1,0 +1,19 @@
+<email-template>
+  <header>
+    <from>$from.userEmail</from>
+    <to>$to.userEmail</to>
+    <reply-to></reply-to>
+    <subject>ISG Claim ($claim.claimNum) is pending approval</subject>
+  </header>
+  <body><![CDATA[
+<html>
+<BODY>
+Hi $to.userName,<br/><br/>
+A claim ($claim.claimNum) is awaiting your approval. Please click the link below to access the ISG Claim Automation system to approve or decline it.<br>
+<a href="$domainPath/ClaimAutoWeb/promo?m=viewClaim&claimId=$claim.id"><font color="red"><b>$claim.claimNum</b></font></a>.
+<br><br>
+
+</BODY>
+</html>
+  ]]></body> 
+</email-template>

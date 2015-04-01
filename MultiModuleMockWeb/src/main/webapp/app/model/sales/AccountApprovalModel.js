@@ -1,0 +1,37 @@
+Ext.define('Fast.model.sales.AccountApprovalModel', {
+    extend: 'Ext.data.Model',
+	fields: [
+	     {name: 'sequenceNumber', type: 'number'},
+	     {name: 'id', type: 'number'},
+	     {name: 'dealerId', type: 'number'},
+         {name: 'customerCode', type: 'string'},
+         {name: 'customerName', type: 'string'},
+	     {name: 'salesPersonId', type: 'number'},
+         {name: 'salesPerson', type: 'string'},
+	     {name: 'submittedById', type: 'number'},
+         {name: 'submittedBy', type: 'string'},
+	     {name: 'approverId', type: 'number'},
+         {name: 'approver', type: 'string'},
+         {name: 'category', type: 'string'},
+         {name: 'managementGroup', type: 'string'},
+	     {name: 'productId', type: 'number'},
+         {name: 'categoryName', type: 'string'},
+         {name: 'codeNumber', type: 'string'},
+         {name: 'itemCode', type: 'string'},
+         {name: 'itemName', type: 'string'},
+         {name: 'accountStatus', type: 'string'},
+         {name: 'approvedLevel', type: 'number'},
+         {name: 'defaultM', type: 'number'},
+         {name: 'defaultM2', type: 'number'},
+         {name: 'adjustedM', type: 'number'},
+         {name: 'adjustedM2', type: 'number'},
+         {name: 'adjustedComments', type: 'string'},
+         {name: 'approvalComments', type: 'string'},
+	     {name: 'createOn', type: 'number'},
+         {name: 'createBy', type: 'string'},
+	     {name: 'updateOn', type: 'number'},
+         {name: 'updateBy', type: 'string'},
+         {name: 'deleted', type: 'boolean'}
+     ]
+});
+
